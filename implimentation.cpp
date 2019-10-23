@@ -1,8 +1,8 @@
 #include <stdio.h>
 struct Edge
 {
-    char *startVertex;
-    char *endVertex;
+    int startVertex;
+    int endVertex;
     int weight;
 };
 
